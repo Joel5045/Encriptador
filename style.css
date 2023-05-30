@@ -1,0 +1,152 @@
+*{
+    background: #989fa7;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+
+    padding-top: 10px;
+    margin-left: 10px;
+    height: 48px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+textarea{
+    resize: none;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{ color: #0A3871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+
+.mensaje{
+    background: #F3F5FC;
+    background-image: url(candado.webp);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 200px;
+    border: none;
+    position: absolute;
+    width: 400px;
+    height: 780px;
+    left: 1000px;
+    top: 40px;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.informacion{
+
+    font-size: 20px;
+    color: red;
+
+}
+
+.botones{
+
+    display: flex;
+    margin-top: 18px;   
+    
+}
+
+.btn-encriptador{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: 200ms all;
+
+}
+
+.btn-encriptador:hover {
+    background: white;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.btn-encriptador:active{
+    background: green;
+}
+
+.btn-desencriptador{
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+.btn-desencriptador:hover {
+    background: #0A3871;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+.btn-desencriptador:active{
+    background: green;
+}
+
+
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 364px;
+    margin-top: 682px;
+    position: absolute;
+    width: 336px;
+    transition: 300ms all;
+}
+
+.copiar:hover {
+    background: darkblue;
+    scale: 1.1;
+    color: #FFFFFF;
+    font-weight: bold;
+   
+}
+.copiar:active{
+    background: green;
+}
+
+footer{
+
+    text-align: center;    
+    background-image: ;
+    padding: 40px;
+    
+    }
