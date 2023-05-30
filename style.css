@@ -94,6 +94,7 @@ textarea{
 
 .btn-encriptador:active{
     background: green;
+    rotate: 360deg;
 }
 
 .btn-desencriptador{
@@ -115,6 +116,7 @@ textarea{
 
 .btn-desencriptador:active{
     background: green;
+    rotate: 360deg;
 }
 
 
@@ -141,12 +143,18 @@ textarea{
 }
 .copiar:active{
     background: green;
+    rotate: 360deg;
 }
 
 footer{
 
     text-align: center;    
-    background-image: ;
+    
     padding: 40px;
+   
     
     }
+ .copyright{
+    font-style: italic;
+    
+ }   
